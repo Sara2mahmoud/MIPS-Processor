@@ -53,14 +53,14 @@ This diagram shows the internal pipeline stages and main components of the MIPS 
 ├── div.v                      # Divider unit
 ├── excute_memory_reg.v        # Pipeline register between execute and memory
 ├── fetch_decode_reg.v         # Pipeline register between fetch and decode
-├── handler.mem                # Interrupt handler memory
+├── handler.mem                # exception handler instructions
 ├── hazardUnit.sv              # Hazard detection unit
 ├── instr_mem.v                # Instruction memory
 ├── Load_Unit.v                # Load operation unit
 ├── main_decoder.v             # Main instruction decoder
 ├── memory_writeback_reg.v     # Pipeline register between memory and write-back
 ├── MIPS_Pipeline_TB.sv        # Testbench for the MIPS pipeline
-├── module_tb_cmsdk_apb_timer().sv # Timer module testbench
+├── module_tb_cmsdk_apb_timer().sv # Timer module 
 ├── multi_des.v                # Multiplier logic
 ├── MUX.v                      # Multiplexer
 ├── MUX41.v                    # 4-to-1 multiplexer
@@ -70,7 +70,7 @@ This diagram shows the internal pipeline stages and main components of the MIPS 
 ├── shifter.v                  # Shifter logic
 ├── sign_extend.v              # Immediate sign extension unit
 ├── Store_Unit.v               # Store operation unit
-├── Test1_v2.mem - Test5.mem   # Test memory images
+├── Test1_v2.mem - Test5.mem   # Test memory files
 ├── TOP.v                      # Top-level module
 ├── wrapper.v                  # Wrapper module for integration
 ├── cmsdk_ahb_gpio.v           # GPIO AHB slave
